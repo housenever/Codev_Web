@@ -6,27 +6,74 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
   <title>Codev</title>
 </head>
-<body class="container">
+
+<body class="container mw-100" style="padding:0">
   <div class="logoarea" align="center">
-    <img src="asset/logo.svg" width="240"></img>
+    <img src="asset/logo-grad.svg" width="160"></img>
   </div>
-  <div class="maincontent row" align="center">
-    <div class="col-2"></div>
-    <p class="bigword col-8">CODEV is a code view assistant by <u>visualizing logic structure</u> and <u>inner relationship of code</u>,
-      to save programmers’ time in code reading and understanding</p>
-    <div class="col-2"></div>
+  <div class="maincontent row justify-content-center" align="center">
+    <p class="bigword col-12">Save 50% of time in Reading Code</p>
+    <p class="productintro col-8">CODEV is a code view assistant by <u>visualizing logic structure</u> and <u>inner relationship of code</u>,
+        to save programmers’ time in code reading and understanding</p>
   </div>
 
+
+<!-- button -->
     <div align="center">
       <div class="button">
-        <button type="button" class="downloadbtn btn btn-primary btn-lg">Download  Now</button>
-        <p class="releaseinfo">Beta Version 0.1. 2018/04/18</p>
+        <button type="button" class="downloadbtn btn btn-primary btn-lg" onclick="window.location.href='https://doc-04-64-docs.googleusercontent.com/docs/securesc/kvkf537foommkgudr6nkkb9ttv6qtrui/s1sed0eruhdt4mb3l81n50k0gr5qfpb3/1524247200000/08595998368939753221/03121256352371770023/1cZGNB8Sfnn1eX4v7zOyqETJUGgCR8LFm?e=download'">
+          Download  Now</button>
+        <p class="releaseinfo">Beta Version 1.0 for mac ( 53M )</p>
       </div>
     </div>
 
-    <div align="center" style="margin-top:40px;">
-      <h5 class="smalltitle">Team Member</h5>
-      <p>Yumin Hong  |  JiaqiLi  |  Huinan Jiang  |  Jiaqiao Peng  |  Sihan Yuan  |  Cuiwei Xu</p>
+<!-- feature -->
+    <div class="feature row justify-content-center">
+      <div class="col-lg-5" align="center" style="margin-bottom:30px">
+        <p class="feature-subtitle">Translate codeline to graph</p>
+        <p class="feature-describ">Visualize logic structure and inner relationship</p>
+        <img src="asset/icon1.svg"></img>
+      </div>
+
+      <div class="col-lg-5" align="center" style="margin-bottom:30px">
+        <p class="feature-subtitle">Light, Fast and Easy-used</p>
+        <p class="feature-describ">Improve your efficiency in a mintue</p>
+        <img src="asset/icon2.svg"></img>
+      </div>
+
+    </div>
+
+    <div class="team" align="center" style="margin-top:40px;">
+      <p class="smalltitle">Team Member</p>
+      <div class="row justify-content-center" >
+        <div class="col-2">
+          <p class="name">Yumin Hong</p>
+          <p class="job">Product Manager</p>
+        </div>
+        <div class="col-2">
+          <p class="name">Jiaqi Li</p>
+          <p class="job">Developer</p>
+        </div>
+        <div class="col-2">
+          <p class="name">Huinan Jiang</p>
+          <p class="job">Developer</p>
+        </div>
+      </div>
+      <div class="row justify-content-center" >
+        <div class="col-2">
+          <p class="name">Jiaqiao Peng</p>
+          <p class="job">Developer</p>
+        </div>
+        <div class="col-2">
+          <p class="name">Cuiwei Xu</p>
+          <p class="job">Marketing</p>
+        </div>
+        <div class="col-2">
+          <p class="name">Sihan Yuan</p>
+          <p class="job">Marketing</p>
+        </div>
+      </div>
+
     </div>
 
 
@@ -40,11 +87,16 @@
     font-weight: bold;
     font-style: italic;
     /* font-family: 'Roboto', sans-serif; */
-    font-size: 36px;
+    font-size: 40px;
+    margin: 12px 0 18px 0;
+  }
+  .productintro{
+    font-size:22px;
+    font-weight: bold;
   }
   .maincontent{
-    margin-top: 30px;
-    margin-bottom: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   .logoarea{
     margin-top: 50px;
@@ -52,6 +104,8 @@
   .downloadbtn{
     padding: 8px 30px 8px 30px;
     border-radius: 100px;
+    background-color: #FF2F92;
+    border-color: #FF2F92;
   }
   .releaseinfo{
     margin-top: 15px;
@@ -61,6 +115,38 @@
   .smalltitle{
     font-weight: bold;
     font-style: italic;
+    font-size: 22px;
+    color: #5C636F;
+    margin-bottom: 30px;
+  }
+  .feature{
+    background-color: #F7F7F7;
+    padding: 60px 20px 30px 20px;
+    margin: 80px 0 40px 0;
+  }
+
+  .feature-subtitle{
+    font-size:22px;
+    font-weight: bold;
+    font-style: italic;
+    margin:6px;
+  }
+  .feature-describ{
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+  .team{
+    margin-bottom: 80px;
+    margin-top: 20px;
+  }
+  .name{
+    font-size: 16px;
+    margin:6px;
+    font-weight: bold;
+  }
+  .job{
+    font-size: 14px;
+    color: #9FA6B7;
   }
   </style>
   </html>
